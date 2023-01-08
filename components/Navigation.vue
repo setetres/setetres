@@ -1,0 +1,105 @@
+<template>
+  <nav class="grid grid-cols-2 md:grid-cols-4 gap-y-12 uppercase">
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          Brands
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="Conceived_in_Fire"
+              to="https://setetres.st"
+            >
+              setetres.st
+            </NavigationLink>
+          </li>
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="CthulhuRei"
+              to="https://xxxxxxx.ooo"
+            >
+              xxxxxxx.ooo
+            </NavigationLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          —
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="CreepyCrappyShow"
+              to="https://mortelenta.org"
+            >
+              mortelenta.org
+            </NavigationLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          —
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="pedroleitin"
+              to="https://creepycrappy.show"
+            >
+              creepycrappy.show
+            </NavigationLink>
+          </li>
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="naweskil"
+              to="https://hashima.gg"
+            >
+              hashima.gg
+            </NavigationLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          —
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              id="pedroturambar"
+              to="#"
+            >
+              poww.ws
+              <Tag
+                class="ml-2"
+                color="bg-blue-500"
+              >
+                Soon
+              </Tag>
+            </NavigationLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
