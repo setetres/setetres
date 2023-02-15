@@ -17,12 +17,6 @@ module.exports = {
       maxWidth: {
         '14xl': '160rem'
       }
-    },
-  },
-  corePlugins: {
-    aspectRatio: false
-  },
-  plugins: [
-    require('@tailwindcss/aspect-ratio')
-  ]
+    }
+  }
 }

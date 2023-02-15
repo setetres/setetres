@@ -25,12 +25,12 @@
 
       function init() {
         camera = new THREE.PerspectiveCamera(
-          1,
+          30,
           frame.clientWidth / frame.clientHeight,
           1,
-          2000
+          1000
         )
-        camera.position.z = 250
+        camera.position.z = 300
 
         scene = new THREE.Scene()
 
@@ -48,7 +48,7 @@
             if (child.isMesh) child.material.map = texture
           })
 
-          object.position.y = 0
+          object.position.y = -85
           scene.add(object)
         }
 
@@ -62,7 +62,7 @@
           '/texture-04.jpg',
           '/texture-05.jpg',
           '/texture-06.jpg',
-          '/texture-07.jpg',
+          '/texture-07.jpg'
         ]
 
         const textureLoader = new THREE.TextureLoader(manager)
