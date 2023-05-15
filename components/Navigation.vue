@@ -10,7 +10,7 @@
             <NavigationLink
               color="hover:text-blue-500"
               external="true"
-              id="Conceived_in_Fire"
+              id="setetres"
               to="https://setetres.st"
             >
               setetres.st
@@ -20,7 +20,7 @@
             <NavigationLink
               color="hover:text-blue-500"
               external="true"
-              id="CthulhuRei"
+              id="xxxxxxxooo"
               to="https://xxxxxxx.ooo"
             >
               xxxxxxx.ooo
@@ -39,7 +39,7 @@
             <NavigationLink
               color="hover:text-blue-500"
               external="true"
-              id="CreepyCrappyShow"
+              id="mortelenta"
               to="https://mortelenta.org"
             >
               mortelenta.org
@@ -58,22 +58,13 @@
             <NavigationLink
               color="hover:text-blue-500"
               external="true"
-              id="pedroleitin"
+              id="creepycrappyshow"
               to="https://creepycrappy.show"
             >
               creepycrappy.show
             </NavigationLink>
           </li>
-          <li>
-            <NavigationLink
-              color="hover:text-blue-500"
-              external="true"
-              id="naweskil"
-              to="https://hashima.gg"
-            >
-              hashima.gg
-            </NavigationLink>
-          </li>
+
         </ul>
       </div>
     </div>
@@ -86,16 +77,21 @@
           <li>
             <NavigationLink
               color="hover:text-blue-500"
-              id="pedroturambar"
-              to="#"
+              external="true"
+              id="hashima"
+              to="https://hashima.gg"
+            >
+              hashima.gg
+            </NavigationLink>
+          </li>
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="powwws"
+              to="https://poww.ws"
             >
               poww.ws
-              <Tag
-                class="ml-2"
-                color="bg-blue-500"
-              >
-                Soon
-              </Tag>
             </NavigationLink>
           </li>
         </ul>
