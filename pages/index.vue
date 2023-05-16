@@ -34,11 +34,11 @@
 
         scene = new THREE.Scene()
 
-        const ambientLight = new THREE.AmbientLight(0xcccccc, 0.4)
+        const ambientLight = new THREE.AmbientLight(0x000000, 1)
 
         scene.add(ambientLight)
 
-        const pointLight = new THREE.PointLight(0xffffff, 0.8)
+        const pointLight = new THREE.PointLight(0xcccccc, 1)
 
         camera.add(pointLight)
         scene.add(camera)
