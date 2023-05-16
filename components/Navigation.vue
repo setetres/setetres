@@ -58,26 +58,6 @@
             <NavigationLink
               color="hover:text-blue-500"
               external="true"
-              id="creepycrappyshow"
-              to="https://creepycrappy.show"
-            >
-              creepycrappy.show
-            </NavigationLink>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-    <div class="space-y-12">
-      <div>
-        <HeadingSans>
-          —
-        </HeadingSans>
-        <ul role="list" class="mt-6 space-y-3">
-          <li>
-            <NavigationLink
-              color="hover:text-blue-500"
-              external="true"
               id="hashima"
               to="https://hashima.gg"
             >
@@ -92,6 +72,25 @@
               to="https://poww.ws"
             >
               poww.ws
+            </NavigationLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space-y-12">
+      <div>
+        <HeadingSans>
+          —
+        </HeadingSans>
+        <ul role="list" class="mt-6 space-y-3">
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="creepycrappyshow"
+              to="https://creepycrappy.show"
+            >
+              creepycrappy.show
             </NavigationLink>
           </li>
         </ul>
