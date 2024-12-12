@@ -45,6 +45,16 @@
               mortelenta.org
             </NavigationLink>
           </li>
+          <li>
+            <NavigationLink
+              color="hover:text-blue-500"
+              external="true"
+              id="mortelenta"
+              to="https://rasgado.net"
+            >
+              rasgado.net
+            </NavigationLink>
+          </li>
         </ul>
       </div>
     </div>
